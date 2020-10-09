@@ -1,0 +1,58 @@
+
+
+.mainpage{
+    background-color: gold;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    
+    
+
+}
+
+.tL{
+    background-color:red;
+
+
+}
+
+.tM{
+    background-color:blue;
+
+}
+
+.tR{
+    background-color:yellow;
+
+}
+
+.mL{
+    background-color:orange;
+
+}
+
+.mM{
+    background-color:cyan;
+
+}
+
+.mR{
+    background-color:lime;
+
+}
+
+.bL{
+    background-color:purple;
+
+}
+
+.bM{
+    background-color:pink;
+
+}
+
+.bR{
+    background-color:silver;
+
+}

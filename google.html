@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="styles.css">
+    <title>Google</title>
+
+<!---Nothing in CSS calls the element itself. A "#" calls the id which is nested in the element. A "." calls the class, also nested
+     An element can have many different classes but only one id. It is bestr practice to use classes to identify things in the css.
+     Priority for styling is Inline -> ID - Class - Element. -->
+
+<!--My current plan is to use CSS grid to create a 3 x 3 grid (ala tick-tac-toe) all inside of one div. My logic is that if the main div, henceforth called "mainpage", can be
+    centered in the body I can easily use CSS grid to section parts of it off to contain the main contents of my page. The middlemiddle square of the grid
+    will pose the biggest challenge. At present I am considering either to use CSS Flexbox to styel the few objects inside of the middlemiddle square
+    or simply using divs to section it off. My gut tells me using divs will be easier but using FB inside of Grid will let me flex both muscles and learn
+    multiple technologies. I will update this when I get to that portion of the styling-->
+
+</head>
+
+    <div class="mainpage">
+        <!--for the classes I have abbreviated them based on their location in the grid. "tL" would mean topLeft. "mM" would be middleMiddle
+            and "bR" would be buttomRight. I have done this to make programming easier and to eliminate the risk of a typo throwing off the styling.
+            hopefully this makes debugging easier.-->
+        
+        <div class="tL">About Store</div>
+        <div class="tM">Blank</div>
+        <div class="tR">Gmail Images [] Picture</div>
+        
+        
+        <div class="mL">Blank</div>
+        <div class="mM">Picture Search Bar Google Search I'm Feeling Lucky Watch the 2020 Vice Presidential Debate. Tonight on Youtube at 9PM ET</div>
+        <div class="mR">Blank</div>
+        
+        
+        <div class="bL">Advertising Business How Search Works</div>
+        <div class="bM">Blank</div>
+        <div class="bR">Privacy Terms Settings</div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+</html>
