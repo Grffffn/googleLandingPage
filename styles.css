@@ -1,58 +1,69 @@
 
 
 .mainpage{
-    background-color: gold;
+    
     height:100vh;
     display:grid;
     grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-rows: 3fr 30fr 1fr;
+
+}
     
+a{
+    text-decoration: none;
+    font-size:  13px;
+
+}
+.middleItems{
+
+    text-align:center;
     
 
 }
 
 .tL{
-    background-color:red;
+    background-color:white;
 
 
 }
 
 .tM{
-    background-color:blue;
+    background-color:white;
 
 }
 
 .tR{
-    background-color:yellow;
-
+    background-color:white;
+    text-align: right;
 }
 
 .mL{
-    background-color:orange;
+    background-color:white;
 
 }
 
 .mM{
-    background-color:cyan;
-
+    background-color:white;
+    align-items: center;
+    
 }
 
 .mR{
-    background-color:lime;
+    background-color:white;
 
 }
 
 .bL{
-    background-color:purple;
-
+    background-color:#f2f2f2;
+    text-align: left;
 }
 
 .bM{
-    background-color:pink;
+    background-color:#f2f2f2;
 
 }
 
 .bR{
-    background-color:silver;
-
+    background-color:#f2f2f2;
+    text-align: right;
 }
